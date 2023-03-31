@@ -3,7 +3,8 @@
 ## 參考文件
 [Using Amazon EC2 with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2.html)
 ## 進階設定
-儲存(裝置)：[Block device mappings](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html)
+儲存(裝置)
+ * [Block device mappings](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html)
  * [describe-images](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-images.html)
  ```
  aws ec2 describe-images --image-ids ami-02f97949d306b597a
