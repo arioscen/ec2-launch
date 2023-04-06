@@ -16,6 +16,7 @@ aws ec2 run-instances \
     --key-name ${KEY_PAIR_NAME} \
     --security-group-ids ${SECURITY_GROUP_ID} \
     --region ${REGION} \
+    --user-data file://${USER_DATA} \
     --instance-market-options '{
         "MarketType": "spot",
         "SpotOptions": {
@@ -31,4 +32,3 @@ aws ec2 run-instances \
             "VolumeType": "gp3"
         }
     }' \
-    --user-data file://${USER_DATA}

@@ -7,6 +7,7 @@
  * [Block device mappings](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html)
  * [describe-images](https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-images.html)
  ```
+ # 確認Image內容
  aws ec2 describe-images --image-ids ami-02f97949d306b597a
  ```
 
